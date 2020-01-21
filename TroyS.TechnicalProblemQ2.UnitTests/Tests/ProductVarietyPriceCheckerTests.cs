@@ -28,6 +28,14 @@ namespace TroyS.TechnicalProblemQ2.UnitTests.Tests
             throw new NotImplementedException();
         }
 
+        [TestCase(15, 30, 33, 42, 120)]
+        [TestCase(18, 22.5, 90, 0, 130.5)]
+        [TestCase(21, 36, 0, 0, 57)]
+        [TestCase(67.5, 0, 0, 0, 67.5)]
+        public void Sum_of_Product_Variety_Prices_In_Euro_Is_Correct(decimal productPrice1, decimal productPrice2, decimal productPrice3, decimal productPrice4, decimal expectedTotalPrice)
+        {
+            throw new NotImplementedException();
+        }
 
     }
 }
