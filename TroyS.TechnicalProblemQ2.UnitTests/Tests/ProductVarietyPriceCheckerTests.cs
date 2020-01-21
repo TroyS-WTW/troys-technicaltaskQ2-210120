@@ -42,7 +42,11 @@ namespace TroyS.TechnicalProblemQ2.UnitTests.Tests
         [TestCase(67.5, 0, 0, 0, 67.5)]
         public void Sum_of_Product_Variety_Prices_In_Euro_Is_Correct(decimal productPrice1, decimal productPrice2, decimal productPrice3, decimal productPrice4, decimal expectedTotalPrice)
         {
-            throw new NotImplementedException();
+            var productVarietyPriceChecker = new ProductVarietyPriceChecker();
+
+            decimal actualProductVarietyPriceSumInEuro = productVarietyPriceChecker.ProductVarietyPriceSum(productPrice1, productPrice2, productPrice3, productPrice4);
+
+            Assert.AreEqual(expectedTotalPrice, actualProductVarietyPriceSumInEuro);
         }
 
         [TestCase(-1, 30, 33, 42)]

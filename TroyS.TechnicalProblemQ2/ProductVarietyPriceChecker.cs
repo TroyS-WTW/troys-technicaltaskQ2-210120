@@ -13,5 +13,10 @@ namespace TroyS.TechnicalProblemQ2
             var priceInEuro = priceInGbp * conversionRate;
             return priceInEuro;
         }
+
+        public decimal ProductVarietyPriceSum(decimal productVarietyPrice1, decimal productVarietyPrice2, decimal productVarietyPrice3, decimal productVarietyPrice4)
+        {
+            return (productVarietyPrice1 + productVarietyPrice2 + productVarietyPrice3 + productVarietyPrice4);
+        }
     }
 }
