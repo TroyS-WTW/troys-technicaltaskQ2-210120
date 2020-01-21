@@ -22,6 +22,12 @@ namespace TroyS.TechnicalProblemQ2.UnitTests.Tests
         }
 
 
+        [TestCase(-1)]
+        public void Negative_Product_Variety_Price_Entry_Throws_An_Exception(decimal priceInGbp)
+        {
+            throw new NotImplementedException();
+        }
+
 
     }
 }
