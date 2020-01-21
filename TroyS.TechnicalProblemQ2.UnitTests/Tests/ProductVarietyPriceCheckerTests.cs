@@ -18,7 +18,11 @@ namespace TroyS.TechnicalProblemQ2.UnitTests.Tests
         [TestCase(45, 67.5)]
         public void Product_Variety_Price_In_Euro_Is_Correct(decimal priceInGbp, decimal expectedPriceInEuro)
         {
-            throw new NotImplementedException();
+            var productVarietyPriceChecker = new ProductVarietyPriceChecker();
+
+            var actualPriceInEuro = productVarietyPriceChecker.ProductVarietyPriceInEuro(priceInGbp);
+
+            NUnit.Framework.Assert.AreEqual(expectedPriceInEuro, actualPriceInEuro);
         }
 
 

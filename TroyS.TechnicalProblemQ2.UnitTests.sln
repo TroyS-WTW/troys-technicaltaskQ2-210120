@@ -5,6 +5,8 @@ VisualStudioVersion = 15.0.27130.2027
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TroyS.TechnicalProblemQ2.UnitTests", "TroyS.TechnicalProblemQ2.UnitTests\TroyS.TechnicalProblemQ2.UnitTests.csproj", "{F78E0C01-43D7-4895-B84A-48F36F6ABA3B}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TroyS.TechnicalProblemQ2", "TroyS.TechnicalProblemQ2\TroyS.TechnicalProblemQ2.csproj", "{4181553A-968A-4EB1-AAF4-F83A94116B8E}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{F78E0C01-43D7-4895-B84A-48F36F6ABA3B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F78E0C01-43D7-4895-B84A-48F36F6ABA3B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F78E0C01-43D7-4895-B84A-48F36F6ABA3B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4181553A-968A-4EB1-AAF4-F83A94116B8E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4181553A-968A-4EB1-AAF4-F83A94116B8E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4181553A-968A-4EB1-AAF4-F83A94116B8E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4181553A-968A-4EB1-AAF4-F83A94116B8E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
