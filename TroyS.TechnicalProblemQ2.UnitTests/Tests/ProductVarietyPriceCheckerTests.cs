@@ -37,5 +37,13 @@ namespace TroyS.TechnicalProblemQ2.UnitTests.Tests
             throw new NotImplementedException();
         }
 
+        [TestCase(-1, 30, 33, 42)]
+        [TestCase(18, -1, 90, 0)]
+        [TestCase(21, 36, -1, 0)]
+        [TestCase(67.5, 0, 0, -1)]
+        public void Sum_With_At_Least_One_Negative_Product_Variety_Price_Entry_Throws_An_Exception(decimal productPrice1, decimal productPrice2, decimal productPrice3, decimal productPrice4)
+        {
+            throw new NotImplementedException();
+        }
     }
 }
