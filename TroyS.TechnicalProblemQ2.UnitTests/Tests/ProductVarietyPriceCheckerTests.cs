@@ -55,7 +55,11 @@ namespace TroyS.TechnicalProblemQ2.UnitTests.Tests
         [TestCase(67.5, 0, 0, -1)]
         public void Sum_With_At_Least_One_Negative_Product_Variety_Price_Entry_Throws_An_Exception(decimal productPrice1, decimal productPrice2, decimal productPrice3, decimal productPrice4)
         {
-            throw new NotImplementedException();
+            var productVarietyPriceChecker = new ProductVarietyPriceChecker();
+
+            Assert.That
+                (() => productVarietyPriceChecker.ProductVarietyPriceSum(productPrice1, productPrice2, productPrice3, productPrice4),
+                Throws.TypeOf<ArgumentOutOfRangeException>());
         }
     }
 }
