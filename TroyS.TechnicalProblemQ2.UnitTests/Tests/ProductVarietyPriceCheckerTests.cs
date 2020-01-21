@@ -29,7 +29,11 @@ namespace TroyS.TechnicalProblemQ2.UnitTests.Tests
         [TestCase(-1)]
         public void Negative_Product_Variety_Price_Entry_Throws_An_Exception(decimal priceInGbp)
         {
-            throw new NotImplementedException();
+            var productVarietyPriceChecker = new ProductVarietyPriceChecker();
+
+            Assert.That
+                (() => productVarietyPriceChecker.ProductVarietyPriceInEuro(priceInGbp),
+                Throws.TypeOf<ArgumentOutOfRangeException>());
         }
 
         [TestCase(15, 30, 33, 42, 120)]
